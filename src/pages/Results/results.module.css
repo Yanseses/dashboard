@@ -1,0 +1,17 @@
+.main {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 87dvh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.button {
+  cursor: pointer;
+}

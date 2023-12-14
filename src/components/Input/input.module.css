@@ -1,0 +1,21 @@
+.label {
+  display: inline-grid;
+  grid-template-columns: 37px 1fr 82px;
+  align-items: center;
+  position: relative;
+  border: 1px solid #EBEBEB;
+  background-color: var(--background-card);
+  border-radius: 5px;
+  height: 45px;
+}
+
+.input {
+  border: none;
+  outline: none;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

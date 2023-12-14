@@ -1,0 +1,44 @@
+.section {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 30px;
+  height: 100%;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: auto 100px 65px 250px 95px;
+  column-gap: 25px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.filter {
+  cursor: pointer;
+}
+
+.empty {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 40px;
+}
+
+.reset {
+  background-color: var(--status-color-online);
+}

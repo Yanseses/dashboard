@@ -1,0 +1,52 @@
+.default {
+  margin: 0;
+  padding: 0;
+}
+
+.s11 {
+  font-size: 11px;
+}
+
+.s12 {
+  font-size: 12px;
+}
+
+.s13 {
+  font-size: 13px;
+}
+
+.s14 {
+  font-size: 14px;
+}
+
+.s26 {
+  font-size: 26px;
+}
+
+.s70 {
+  font-size: 70px;
+}
+
+.color-default {
+  color: var(--text-color-default);
+}
+
+.color-grey {
+  color: var(--text-color-grey);
+}
+
+.color-draft {
+  color: var(--status-color-draft);
+}
+
+.color-online {
+  color: var(--status-color-online);
+}
+
+.color-paused {
+  color: var(--status-color-paused);
+}
+
+.color-stopped {
+  color: var(--status-color-stopped);
+}
